@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		830B44DD219F96890047F268 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830B44DC219F96890047F268 /* LoginViewController.swift */; };
+		8323353121A1D77A00D657B6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8323353021A1D77A00D657B6 /* ProfileViewController.swift */; };
+		83536E43219CFBC60078522F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83536E42219CFBC60078522F /* AppDelegate.swift */; };
+		83536E4A219CFBC60078522F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83536E48219CFBC60078522F /* Main.storyboard */; };
+		83536E4C219CFBC80078522F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83536E4B219CFBC80078522F /* Assets.xcassets */; };
+		83536E4F219CFBC80078522F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83536E4D219CFBC80078522F /* LaunchScreen.storyboard */; };
+		83536E57219CFE100078522F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83536E56219CFE100078522F /* GoogleService-Info.plist */; };
+		83989DFF21A38E0F00FE6B9B /* LeaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83989DFE21A38E0F00FE6B9B /* LeaseViewController.swift */; };
+		83C7C6E721A0788D00FB78F6 /* CreateAccount1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C7C6E621A0788C00FB78F6 /* CreateAccount1ViewController.swift */; };
+		83C7C6E921A07CE900FB78F6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C7C6E821A07CE900FB78F6 /* User.swift */; };
+		83FAD2D121A4682D00837E9E /* AmenitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FAD2D021A4682D00837E9E /* AmenitiesViewController.swift */; };
+		83FDBA5A21B8A1A900A5F6F2 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FDBA5921B8A1A900A5F6F2 /* SearchViewController.swift */; };
+		D340255FC004A20C9C184D2C /* Pods_EcoTourism.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E16B2DAA877F82538190A5 /* Pods_EcoTourism.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		784A6127BA5E388B02E9FA27 /* Pods-EcoTourism.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoTourism.release.xcconfig"; path = "Pods/Target Support Files/Pods-EcoTourism/Pods-EcoTourism.release.xcconfig"; sourceTree = "<group>"; };
+		830B44DC219F96890047F268 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8323353021A1D77A00D657B6 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		83536E3F219CFBC60078522F /* EcoTourism.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoTourism.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83536E42219CFBC60078522F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83536E49219CFBC60078522F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83536E4B219CFBC80078522F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83536E4E219CFBC80078522F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83536E50219CFBC80078522F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83536E56219CFE100078522F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		83989DFE21A38E0F00FE6B9B /* LeaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaseViewController.swift; sourceTree = "<group>"; };
+		83C7C6E621A0788C00FB78F6 /* CreateAccount1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccount1ViewController.swift; sourceTree = "<group>"; };
+		83C7C6E821A07CE900FB78F6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		83FAD2D021A4682D00837E9E /* AmenitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmenitiesViewController.swift; sourceTree = "<group>"; };
+		83FDBA5921B8A1A900A5F6F2 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B2E16B2DAA877F82538190A5 /* Pods_EcoTourism.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcoTourism.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD9C2658BA3C764542457518 /* Pods-EcoTourism.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoTourism.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EcoTourism/Pods-EcoTourism.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83536E3C219CFBC60078522F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D340255FC004A20C9C184D2C /* Pods_EcoTourism.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83536E36219CFBC60078522F = {
+			isa = PBXGroup;
+			children = (
+				83536E41219CFBC60078522F /* EcoTourism */,
+				83536E40219CFBC60078522F /* Products */,
+				DE9D833FCC464CDCEE2E37C0 /* Pods */,
+				FD4435280EB9E86199CA70D6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		83536E40219CFBC60078522F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83536E3F219CFBC60078522F /* EcoTourism.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83536E41219CFBC60078522F /* EcoTourism */ = {
+			isa = PBXGroup;
+			children = (
+				83C7C6E621A0788C00FB78F6 /* CreateAccount1ViewController.swift */,
+				83536E42219CFBC60078522F /* AppDelegate.swift */,
+				83C7C6E821A07CE900FB78F6 /* User.swift */,
+				830B44DC219F96890047F268 /* LoginViewController.swift */,
+				8323353021A1D77A00D657B6 /* ProfileViewController.swift */,
+				83989DFE21A38E0F00FE6B9B /* LeaseViewController.swift */,
+				83FAD2D021A4682D00837E9E /* AmenitiesViewController.swift */,
+				83536E48219CFBC60078522F /* Main.storyboard */,
+				83FDBA5921B8A1A900A5F6F2 /* SearchViewController.swift */,
+				83536E56219CFE100078522F /* GoogleService-Info.plist */,
+				83536E4B219CFBC80078522F /* Assets.xcassets */,
+				83536E4D219CFBC80078522F /* LaunchScreen.storyboard */,
+				83536E50219CFBC80078522F /* Info.plist */,
+			);
+			path = EcoTourism;
+			sourceTree = "<group>";
+		};
+		DE9D833FCC464CDCEE2E37C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD9C2658BA3C764542457518 /* Pods-EcoTourism.debug.xcconfig */,
+				784A6127BA5E388B02E9FA27 /* Pods-EcoTourism.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD4435280EB9E86199CA70D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2E16B2DAA877F82538190A5 /* Pods_EcoTourism.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83536E3E219CFBC60078522F /* EcoTourism */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83536E53219CFBC80078522F /* Build configuration list for PBXNativeTarget "EcoTourism" */;
+			buildPhases = (
+				DBFB54B4A1C0BB9A02A8C5C2 /* [CP] Check Pods Manifest.lock */,
+				83536E3B219CFBC60078522F /* Sources */,
+				83536E3C219CFBC60078522F /* Frameworks */,
+				83536E3D219CFBC60078522F /* Resources */,
+				FD56BBC84A365B68930423A9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EcoTourism;
+			productName = EcoTourism;
+			productReference = 83536E3F219CFBC60078522F /* EcoTourism.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83536E37219CFBC60078522F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Akash Veerappan";
+				TargetAttributes = {
+					83536E3E219CFBC60078522F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 83536E3A219CFBC60078522F /* Build configuration list for PBXProject "EcoTourism" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83536E36219CFBC60078522F;
+			productRefGroup = 83536E40219CFBC60078522F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83536E3E219CFBC60078522F /* EcoTourism */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83536E3D219CFBC60078522F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83536E4F219CFBC80078522F /* LaunchScreen.storyboard in Resources */,
+				83536E57219CFE100078522F /* GoogleService-Info.plist in Resources */,
+				83536E4C219CFBC80078522F /* Assets.xcassets in Resources */,
+				83536E4A219CFBC60078522F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DBFB54B4A1C0BB9A02A8C5C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EcoTourism-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD56BBC84A365B68930423A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EcoTourism/Pods-EcoTourism-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EcoTourism/Pods-EcoTourism-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83536E3B219CFBC60078522F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C7C6E721A0788D00FB78F6 /* CreateAccount1ViewController.swift in Sources */,
+				830B44DD219F96890047F268 /* LoginViewController.swift in Sources */,
+				83FDBA5A21B8A1A900A5F6F2 /* SearchViewController.swift in Sources */,
+				83C7C6E921A07CE900FB78F6 /* User.swift in Sources */,
+				83989DFF21A38E0F00FE6B9B /* LeaseViewController.swift in Sources */,
+				83FAD2D121A4682D00837E9E /* AmenitiesViewController.swift in Sources */,
+				8323353121A1D77A00D657B6 /* ProfileViewController.swift in Sources */,
+				83536E43219CFBC60078522F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83536E48219CFBC60078522F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83536E49219CFBC60078522F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83536E4D219CFBC80078522F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83536E4E219CFBC80078522F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83536E51219CFBC80078522F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83536E52219CFBC80078522F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83536E54219CFBC80078522F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD9C2658BA3C764542457518 /* Pods-EcoTourism.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EcoTourism/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.squashApps.EcoTourism;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83536E55219CFBC80078522F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 784A6127BA5E388B02E9FA27 /* Pods-EcoTourism.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EcoTourism/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.squashApps.EcoTourism;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83536E3A219CFBC60078522F /* Build configuration list for PBXProject "EcoTourism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83536E51219CFBC80078522F /* Debug */,
+				83536E52219CFBC80078522F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83536E53219CFBC80078522F /* Build configuration list for PBXNativeTarget "EcoTourism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83536E54219CFBC80078522F /* Debug */,
+				83536E55219CFBC80078522F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83536E37219CFBC60078522F /* Project object */;
+}
